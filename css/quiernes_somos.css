@@ -1,0 +1,44 @@
+.contenido-quienes-somos{
+    background-color:#fff;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+#titulo-quienes-somos{
+    color:#EBDEF0;
+    font-weight:500;
+    font-size:3rem;
+    padding-bottom: 10px;
+}
+
+#quienes-somos{
+    height:150vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background:#633974;
+    margin-top:10px;
+    flex-direction: column;
+}
+
+.texto-quienes-somos{
+    max-width:800px;
+    text-align:justify;
+    padding:10px;
+    line-height:1.7rem;
+    width:100%;
+    padding:25px 30px;
+    margin-top: 20px;
+    
+}
+
+.texto-quienes-somos p{
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}

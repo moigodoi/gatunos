@@ -1,0 +1,97 @@
+.barra-menu{
+/*
+    position: fixed;
+    top: 0; */
+    width: 100%;
+    height: 75px;
+    background-color:#9B59B6;
+}
+
+
+.barra-menu .menu{
+    float: right;
+    margin-right: 20px;
+}
+
+.menu li {
+    
+    text-decoration: none;
+    list-style: none;
+    line-height: 70px;
+    display:inline-block;
+    margin:0 5px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #EBDEF0;
+    font-size: 1.3rem;
+    
+}
+
+
+.barra-menu .logo{
+    font-size:4rem;
+    color: #EBDEF0;
+    
+    width:100px;
+    text-align: center;
+}
+
+.checkbtn{
+    color:#E8F8F5;
+    font-size: 40px;
+    float:right;
+    line-height:90px;
+    margin-right: 40px;
+    display: none;
+
+}
+
+#check{
+    display: none;
+}
+
+@media (max-width: 600px){
+   
+    
+    .menu{ 
+        background-color:#9B59B6;
+        position:fixed;
+        width:100%;
+        height:100vh;
+        display: block;
+        z-index:1;
+        left:-100%;
+        transition: all .5s;
+    }
+
+    #check:checked ~ .menu{
+        left:0;
+    }
+   
+
+    nav .menu li{
+        display: block;
+        text-align: center;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+    
+    .barra-menu{
+        width: 100%;
+        height: 80px;
+        background-color:#9B59B6;
+    }
+
+    .barra-menu  .fa-paw{
+        font-size:3rem;
+        color: #EBDEF0;
+        width:100px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+}

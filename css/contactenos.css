@@ -1,0 +1,115 @@
+
+
+#contactar{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    background:#633974;
+    margin-top:10px;
+    flex-direction: column;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #e184f3;
+	background-color:#c123de;
+	border-radius:6px;
+	border:1px solid #a511c0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9b14b3;
+}
+.myButton:hover {
+	background-color:#a20dbd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.error{
+    color:brown;
+}
+
+#titulo-contactenos{
+    color:#EBDEF0;
+    font-weight:500;
+    font-size:3rem;
+}
+
+#contactar .formulario{
+    max-width: 700px;
+    width:100%;
+    padding:25px 30px;
+    border-radius: 5px;
+    background:white;
+    margin-top: 20px;
+}
+
+
+
+.formulario .datos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background:white;
+    width:100%;
+}
+
+.datos .campo{
+    margin: 20px 0 12px 0;
+    width:calc(100% / 2 -20px);
+}
+
+.datos .campo input,select{
+    height:40px;
+    width:100%;
+    padding-left: 10px;
+    font-size: 1.5rem;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    outline:none;
+}
+
+@media (max-width: 600px){
+    #contactar{
+        height:150vh;
+    }
+
+    .datos .campo input,select{
+        height:40px;
+        width:100%;
+        padding-left: 10px;
+        font-size: 1rem;
+        border:1px solid #ccc;
+        border-radius: 5px;
+        outline:none;
+    }
+
+    .datos .campo{
+        margin-bottom: 5px;
+        width:100%;
+    }
+
+    .formulario{
+        margin-top:400px;
+        background:red;
+        width: 80%;
+    }
+}
+
+.datos .campo label{
+    font-weight: 500;
+    margin-bottom: 5px;
+    display:block;
+}
+
+
